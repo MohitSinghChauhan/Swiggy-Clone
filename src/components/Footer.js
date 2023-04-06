@@ -5,7 +5,7 @@ const Footer = () => {
         Designed and developed By{' '}
         <a
           className="font-bold"
-          href="https://www.github.com/mohitsinghchauhan "
+          href="https://www.github.com/mohitsinghchauhan"
           target="_blank"
         >
           Mohit Singh Chauhan
