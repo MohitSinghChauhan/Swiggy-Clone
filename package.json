@@ -8,15 +8,10 @@
     "build": "npx parcel build index.html"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haddercone/Namaste-React.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/haddercone/Namaste-React/issues"
-  },
-  "homepage": "https://github.com/haddercone/Namaste-React#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
