@@ -25,6 +25,8 @@ const Cart = () => {
         )}
         <hr className="my-2 border-gray-200 border-2" />
         {cartItems.map((item) => {
+          console.log(cartItems);
+          console.log(item);
           return (
             <div
               key={item?.id}
@@ -32,7 +34,7 @@ const Cart = () => {
             >
               <img
                 className="md:w-1/3 h-full"
-                src={IMAGE_CDN_URL + item?.cloudinaryImageId}
+                src={IMAGE_CDN_URL + item?.imageId}
               />
               <div className="md:w-1/3 text-md ">
                 <p className="font-bold">{item?.name}</p>
