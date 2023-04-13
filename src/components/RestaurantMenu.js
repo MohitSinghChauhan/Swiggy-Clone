@@ -24,6 +24,7 @@ const RestaurantMenu = () => {
     dispatch(addItem(item));
   };
   if (!res) return null;
+  console.log(res);
 
   return !isLoaded ? (
     <MenuShimmer />
@@ -42,19 +43,19 @@ const RestaurantMenu = () => {
           </div>
 
           <div className="md:w-1/3 ">
-            <div className="text-3xl pb-2 mt-2 md:mt-0">{res?.name}</div>
-            <div className="text-xl pb-2">{res?.cuisines?.join(',')}</div>
-            <div className="pb-2">{res?.locality}</div>
+            <div className="text-3xl pb-2 mt-2 md:mt-0">{res.cards[0].card.card.info?.name}</div>
+            <div className="text-xl pb-2">Cuisines: {res.cards[0].card.card.info?.cuisines?.join(', ')}</div>
+            <div className="pb-2">{res.cards[0].card.card.info?.locality}</div>
             <div className="flex gap-2 justify-between  md:flex-row   md:justify-start text-xl mb-2 md:mb-0">
               <div className="p-2">
-                <FontAwesomeIcon icon={faStar} /> {res?.avgRatingString}
+                <FontAwesomeIcon icon={faStar} /> {res.cards[0].card.card.info?.avgRatingString}
               </div>
               <div className="p-2">
                 {' '}
-                <FontAwesomeIcon icon={faStopwatch} /> {res?.sla?.slaString}
+                <FontAwesomeIcon icon={faStopwatch} /> {res.cards[0].card.card.info?.sla?.slaString}
               </div>
               <div className=" p-2">
-                <FontAwesomeIcon icon={faMoneyBill} /> {res?.costForTwoMsg}
+                <FontAwesomeIcon icon={faMoneyBill} /> {res.cards[0].card.card.info?.costForTwoMessage}
               </div>
             </div>
           </div>
@@ -63,8 +64,8 @@ const RestaurantMenu = () => {
             <p className="md:absolute top-[-24px] md:p-2 md:translate-x-[-10px] bg-gray-900  sm:bg-[#3C4852]">
               Offers :{' '}
             </p>
-            <p>{res?.aggregatedDiscountInfo?.descriptionList[0].meta} </p>
-            <p>{res?.aggregatedDiscountInfo?.descriptionList[1].meta} </p>
+            <p>{res.cards[0].card.card.info?.aggregatedDiscountInfo?.descriptionList[0].meta} </p>
+            <p>{res.cards[0].card.card.info?.aggregatedDiscountInfo?.descriptionList[1].meta} </p>
           </div>
         </div>
       </div>
