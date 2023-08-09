@@ -35,7 +35,7 @@ const Body = () => {
 						{restaurants.length === 0 ? (
 							<p className='text-center w-full text-3xl my-5'>No restaurant found...</p>
 						) : (
-							restaurantData.map((restaurant) => {
+							restaurantData?.map((restaurant) => {
 								{
 									return (
 										<Link key={restaurant.info.id} to={'/restaurant/' + restaurant.info.id}>
