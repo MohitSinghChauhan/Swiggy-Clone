@@ -11,6 +11,11 @@ const Body = () => {
 	const restaurantData = restaurants[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 	console.log(restaurantData);
 
+	setTimeout(() => {
+	if(restaurants===undefined){
+		window.location.reload();
+	}}, 10000);
+
 	const lastElement = useCallback((node) => {
 		if (loading) return;
 		if (observer.current) observer.current.disconnect();
@@ -31,7 +36,7 @@ const Body = () => {
 				<Shimmer />
 			) : (
 				<div>
-					<div className='m-0 w-full md:m-auto md:w-4/5 flex flex-wrap gap-6 justify-evenly'>
+					<div className='w-full md:m-auto md:w-4/5 flex flex-wrap gap-6 justify-evenly'>
 						{restaurants.length === 0 ? (
 							<p className='text-center w-full text-3xl my-5'>No restaurant found...</p>
 						) : (
