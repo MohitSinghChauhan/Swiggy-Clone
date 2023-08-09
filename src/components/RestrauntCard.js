@@ -9,7 +9,7 @@ const RestrauntCard = ({
   cloudinaryImageId,
   area,
   cuisines,
-  lastMileTravelString,
+  sla,
   costForTwoString,
   avgRating,
 }) => {
@@ -19,7 +19,7 @@ const RestrauntCard = ({
       <div>
         <img src={IMAGE_CDN_URL + cloudinaryImageId} />
         <div className="pt-3 text-lg font-bold">{name}</div>
-        <p className="text-sm text-gray-900 py-3">{cuisines.join(", ")}</p>
+        <p className="text-sm text-gray-900 py-3">{cuisines?.join(", ")}</p>
         <div className="flex justify-between text-sm font-bold">
           <span
             className={
@@ -32,7 +32,7 @@ const RestrauntCard = ({
           >
             <FontAwesomeIcon icon={faStar} size="sm" /> {avgRating}
           </span>
-          <span>{lastMileTravelString}</span>
+          <span>{sla.lastMileTravelString}</span>
           <span>{costForTwoString}</span>
         </div>
         {/* <span>{user.name}</span>
