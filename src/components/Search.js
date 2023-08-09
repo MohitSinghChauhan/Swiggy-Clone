@@ -35,7 +35,7 @@ const Search = ({ restaurants, actualData, setRestaurants }) => {
 		}, 300);
 	};
 	return (
-		<div className="bg-search-bg bg-gray-900 mb-5">
+		<div className="bg-search-bg bg-gray-900 px-8 mb-16">
 			<div className="w-full m-0 md:w-4/5 md:m-auto py-3 flex h-64 justify-evenly items-center flex-col md:flex-row">
 				<h1 className="w-full pl-3 font-bold text-5xl text-white">
 					Find restaurants near you..

@@ -15,7 +15,7 @@ const RestrauntCard = ({
 }) => {
   // const { user } = useContext(UserContext);
   return (
-    <div className=" p-4 w-64  ">
+    <div className=" p-4 w-80 border mb-5">
       <div>
         <img src={IMAGE_CDN_URL + cloudinaryImageId} />
         <div className="pt-3 text-lg font-bold">{name}</div>
