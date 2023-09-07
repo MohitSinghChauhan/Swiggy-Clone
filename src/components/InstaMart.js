@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import faqJSON from "../faq.json";
 
 const Section = ({ title, description, isVisible, setIsvisible }) => {
   //   const [isVisible, setIsvisible] = useState(false);
@@ -30,8 +31,24 @@ const InstaMart = () => {
   return (
     <div className="m-auto w-4/5 my-5 py-2">
       <h1 className="text-3xl font-bold">Instamart</h1>{" "}
-      <hr className="my-2 border-gray-500" />
-      <Section
+      <hr className="my-2 mb-6 border-gray-500" />
+      {
+        faqJSON.map((faq) => {
+          return (
+            <Section
+              title={faq.title}
+              description={faq.description}
+              isVisible={visibleSection === faq.title}
+              setIsvisible={() =>
+                setIsVisibleSection(
+                  visibleSection === faq.title ? "" : faq.title
+                )
+              }
+            />
+          );
+        })
+      }
+      {/* <Section
         title={"About Instamart"}
         description={
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -60,7 +77,7 @@ const InstaMart = () => {
         setIsvisible={() =>
           setIsVisibleSection(visibleSection === "career" ? "" : "career")
         }
-      />
+      /> */}
     </div>
   );
 };

@@ -1,0 +1,57 @@
+[
+	{
+		"title": "What is Instamart and how does it work?",
+		"description": "Instamart is a revolutionary grocery delivery startup that simplifies your life. You can shop for groceries and household essentials online and have them delivered to your doorstep quickly and conveniently. To use Instamart, simply visit our website or mobile app, browse our vast selection of high-quality products, add your desired items to your cart, and proceed to checkout. Our dedicated team will then pick and pack your order with care, ensuring you receive only the freshest and best products, and deliver it to your specified address at your chosen delivery time.",
+		"section": "1"
+	},
+	{
+		"title": "Where can I use Instamart's services?",
+		"description": "Instamart is rapidly expanding its service areas to meet your needs. We currently serve a wide range of cities and regions, with our coverage continually growing. To find out if we're available in your area, check our user-friendly app or visit our website for the most up-to-date information on locations. You'll be pleasantly surprised at our extensive reach!",
+		"section": "2"
+	},
+	{
+		"title": "What are Instamart's flexible delivery hours?",
+		"description": "We understand that convenience is key. That's why we offer flexible delivery windows to accommodate your busy schedule. During the checkout process, you can easily select a delivery time that suits you best. Whether it's early morning, midday, or evening, we've got you covered!",
+		"section": "3"
+	},
+	{
+		"title": "How much is the delivery fee, and are there discounts available?",
+		"description": "The delivery fee may vary depending on your location and the size of your order. Rest assured, we provide transparent details on the delivery fee during the checkout process, so you'll always know what to expect. Plus, keep an eye out for our fantastic promotions and subscription services, which often offer free or reduced delivery fees for orders over a certain amount. We believe in saving you money while delivering convenience!",
+		"section": "4"
+	},
+	{
+		"title": "Does Instamart offer same-day delivery?",
+		"description": "Yes, we do! If you're in need of groceries in a hurry, you're in luck. Instamart offers same-day delivery for orders placed within our specified cutoff time. During checkout, simply select the same-day delivery option, and we'll work diligently to ensure your groceries arrive at your door as swiftly as possible.",
+		"section": "5"
+	},
+	{
+		"title": "How can I easily track the status of my delivery?",
+		"description": "We've made tracking your delivery a breeze. Through our intuitive app or user-friendly website, you can monitor your delivery in real-time. Additionally, we'll keep you informed every step of the way with timely updates and notifications, ensuring you're always in the know about the status of your order.",
+		"section": "6"
+	},
+	{
+		"title": "What payment methods are accepted by Instamart?",
+		"description": "At Instamart, we want to make your shopping experience as seamless as possible. That's why we accept a variety of payment methods, including credit and debit cards, digital wallets, and popular online payment services like PayPal. During checkout, you can choose the payment option that suits you best, providing you with the flexibility you deserve.",
+		"section": "7"
+	},
+	{
+		"title": "Can I make changes to my order after it's placed?",
+		"description": "We understand that plans can change, and we're here to help. Depending on the circumstances and within a specific timeframe after placing your order, you may have the option to make modifications. For assistance with order changes, please contact our friendly and helpful customer support team, and they'll guide you through the process.",
+		"section": "8"
+	},
+	{
+		"title": "What happens if a product I ordered is out of stock?",
+		"description": "While it's a rare occurrence, we take this situation seriously. If an item you ordered happens to be out of stock, we'll promptly notify you. Rest assured, we're here to provide solutions. We'll offer suitable alternatives or, if preferred, provide a refund for the unavailable item. Your satisfaction is our priority!",
+		"section": "9"
+	},
+	{
+		"title": "Is my personal information and payment data secure with Instamart?",
+		"description": "Absolutely! Your security is of utmost importance to us. At Instamart, we prioritize data security and employ industry-standard encryption and security measures to safeguard your personal information and payment data. You can shop with confidence, knowing that your information is protected every step of the way.",
+		"section": "10"
+	},
+	{
+		"title": "How can I get in touch with Instamart's customer support?",
+		"description": "We're always here to assist you with any questions or issues you may have. Getting in touch with Instamart's customer support team is easy. Simply visit the 'Contact Us' section on our app or website, and our knowledgeable and friendly team will be ready to provide you with the assistance you need. Your satisfaction is our top priority!",
+		"section": "11"
+	}
+]
