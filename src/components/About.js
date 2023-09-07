@@ -11,8 +11,8 @@ export default function About() {
 				<section className=' py-12'>
 					<img src={OurStoryImg} alt='About' className='mx-auto w-1/2' />
 					<div className='container mx-4 md:mx-auto text-center'>
-						<h2 className='text-4xl md:text-6xl font-medium mb-10'>Our Story</h2>
-						<p className='text-gray-700 text-l md:text-2xl leading-relaxed mx-10 md:mx-auto md:max-w-6xl mb-16'>
+						<h2 className='mb-4 text-4xl  md:text-6xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white'>Our Story</h2>
+						<p className='text-gray-700 text-l md:text-2xl leading-relaxed mx-8 md:mx-auto md:max-w-6xl mb-16'>
 							Childhood friends Mohit and Amanda started Food Villa in 2018 to deliver fresh, homemade meals to busy urbanites. Struggling to find healthy, affordable delivery options in the city, they launched their startup out of a small apartment kitchen. Through word of mouth, Food Villa quickly gained a following for its nutritious, reasonably priced dishes. Starting small with hustle and heart, John and Jane bootstrapped the company themselves.
 							<br />
 							<br />
@@ -23,7 +23,7 @@ export default function About() {
 
 				<section className='py-24 bg-gray-100'>
 					<div className='container mx-auto'>
-						<h2 className='text-5xl font-medium mb-8 mx-8'>Our Mission</h2>
+						<h2 className='mb-4 mx-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Our Mission</h2>
 
 						<div className='flex flex-col md:flex-row md:-mx-6'>
 							<div className='md:w-1/2 md:px-4'>
@@ -52,7 +52,7 @@ export default function About() {
 
 				<section className='py-12'>
 					<div className='container mx-auto'>
-						<h2 className='text-5xl font-medium text-center mt-8 mb-16'>What Our Customers Say</h2>
+						<h2 className='text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white mt-8 mb-16'>What Our Customers Say</h2>
 
 						<div className='flex flex-wrap mx-4 md:mx-auto '>
 							<div className='w-full md:w-1/2 px-4 mb-6'>
