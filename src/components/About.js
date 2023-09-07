@@ -70,7 +70,7 @@ export default function About() {
 
 									<p className='text-gray-600 leading-relaxed mb-4'>"I can always count on Food Villa for a home-cooked, healthy meal after a long day at the office. Highly recommend!"</p>
 
-									<p className='font-medium'>- Nikita</p>
+									<p className='font-medium'>- Radhika</p>
 								</div>
 							</div>
 						</div>
