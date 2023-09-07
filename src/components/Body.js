@@ -3,14 +3,17 @@ import { Link } from 'react-router-dom';
 import useRestaurantList from '../utils/useRestaurantList';
 import Search from './Search';
 import Shimmer from './Shimmer';
+import restaurantsJSON from '../data.json'
 import { useRef, useCallback } from 'react';
 const Body = () => {
 	const [restaurants, actualData, setRestaurants, loading] = useRestaurantList();
 	const observer = useRef();
 
-	const restaurantData = restaurants[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+	const restaurantData = restaurantsJSON.data.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+	console.log(loading);
 	console.log(restaurantData);
 
+	
 	setTimeout(() => {
 	if(restaurants===undefined){
 		window.location.reload();
@@ -32,6 +35,8 @@ const Body = () => {
 		<>
 			<Search restaurants={restaurants} actualData={actualData} setRestaurants={setRestaurants} />
 
+			{/* fake shimmer for 1 sec */}
+			
 			{loading ? (
 				<Shimmer />
 			) : (
